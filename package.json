@@ -1,0 +1,24 @@
+{
+  "name": "angjest",
+  "version": "1.0.0",
+  "description": "Tool to automatically setup existing angular project for testing using Jest",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run tsc && node out/index.js",
+    "test": "jest",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephanel/angjest.git"
+  },
+  "author": "s.lasmartres@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephanel/angjest/issues"
+  },
+  "homepage": "https://github.com/stephanel/angjest#readme",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
