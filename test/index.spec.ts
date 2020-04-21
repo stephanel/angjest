@@ -1,13 +1,13 @@
 jest.mock('child_process');
 
-import { exec } from 'child_process';
+import { execSync } from 'child_process';
 import * as app from '../src/index';
 
 describe('AngJest', () => {
     it('should setup angular project', () => {
         app.run();
 
-        expect(exec).toHaveBeenCalledWith('npm -v');
+        expect(execSync).toHaveBeenCalledWith('npm -v', expect.any(Object));
         /*
         expect node run 'npm install -D jest jest-preset-angular @types/jest'
         expect node run 'npm install -D jest jest-preset-angular @types/jest'

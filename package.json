@@ -21,9 +21,6 @@
     "url": "https://github.com/stephanel/angjest/issues"
   },
   "homepage": "https://github.com/stephanel/angjest#readme",
-  "dependencies": {
-    "typescript": "^3.8.3"
-  },
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "@types/node": "^13.13.0",
@@ -35,6 +32,7 @@
     "jest": "^25.1.0",
     "prettier": "^2.0.4",
     "ts-jest": "^25.2.1",
-    "ts-node": "^8.8.2"
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
   }
 }
